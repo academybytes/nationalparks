@@ -118,12 +118,15 @@
         "name": "s2i-java"
       },
       "spec": {
+        "dockerImageRepository": "ex280/s2i-java"
+      }
         "tags": [
           {
             "name": "latest",
             "from": {
-              "kind": "ImageStream",
-              "name": "docker-registry.default.svc:5000/ex280/s2i-java"
+              "kind": "ImageStreamTag",
+              "namespace": "ex280",
+              "name": "s2i-java:latest"
             }
           }
         ]

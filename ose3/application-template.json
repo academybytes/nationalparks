@@ -123,7 +123,7 @@
             "name": "latest",
             "from": {
               "kind": "DockerImage",
-              "name": "jorgemoralespou/s2i-java"
+              "name": "ex280/s2i-java"
             }
           }
         ]

@@ -122,7 +122,7 @@
           {
             "name": "latest",
             "from": {
-              "kind": "DockerImage",
+              "kind": "ImageStreamImage",
               "name": "docker-registry.default.svc:5000/ex280/s2i-java"
             }
           }

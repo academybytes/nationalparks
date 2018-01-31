@@ -37,7 +37,7 @@
       "description": "Git source URI for application",
       "displayName": "Git source repository",
       "name": "GIT_URI",
-      "value": "https://github.com/openshift-roadshow/nationalparks.git",
+      "value": "https://github.com/academybytes/nationalparks.git",
       "required": true
     },
     {
@@ -123,7 +123,7 @@
             "name": "latest",
             "from": {
               "kind": "DockerImage",
-              "name": "ex280/s2i-java"
+              "name": "docker-registry.default.svc:5000/ex280/s2i-java"
             }
           }
         ]

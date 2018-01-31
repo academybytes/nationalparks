@@ -127,7 +127,7 @@
             "name": "latest",
             "from": {
               "kind": "DockerImage",
-              "name": "ex280/s2i-java"
+              "name": "docker-registry.default.svc:5000/ex280/s2i-java"
             }
           }
         ]

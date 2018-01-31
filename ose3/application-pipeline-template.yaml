@@ -127,7 +127,7 @@ objects:
     tags:
     - from:
         kind: DockerImage
-        name: ex280/s2i-java
+        name: docker-registry.default.svc:5000/ex280/s2i-java
       name: latest
 - apiVersion: v1
   kind: Service
@@ -679,7 +679,7 @@ parameters:
   displayName: Git source repository
   name: GIT_URI
   required: true
-  value: https://github.com/openshift-roadshow/nationalparks.git
+  value: https://github.com/academybytes/nationalparks.git
 - description: Git branch/tag reference
   displayName: Git branch/tag reference
   name: GIT_REF

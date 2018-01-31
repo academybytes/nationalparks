@@ -111,7 +111,7 @@
             "from": {
               "kind": "ImageStreamTag",
               "namespace": "ex280"
-              "name": "s2i-java:latest"
+              "name": "s2i-java"
             }
           }
         ]

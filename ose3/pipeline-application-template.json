@@ -104,7 +104,8 @@
         "name": "s2i-java"
       },
       "spec": {
-        "dockerImageRepository" "ex280/s2i-java"
+        "dockerImageRepository": "ex280/s2i-java"
+	}
         "tags": [
           {
             "name": "latest",

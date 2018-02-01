@@ -106,6 +106,7 @@
       "spec": {
         "dockerImageRepository": "ex280/s2i-java"
 	}
+      }
         "tags": [
           {
             "name": "latest",
